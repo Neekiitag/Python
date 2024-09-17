@@ -18,4 +18,11 @@
         >>> python folder_path/python_filename.py
 
 ### # Variables in Python:
+
+- Now, storing the message in a variable and then printing the message, will give output as follows -
+  
+        >>> message = print("Hello World!")
+        >>> print(message)
+
+            Hello World!
    
