@@ -60,7 +60,7 @@ Storing the message in a variable and then printing the message, will give the o
           >>> print(message)
 
               Hello, Nikita Gaurihar!
-      ### # Dealing with whitespace, tabs, and newlines :
+    ### # Dealing with whitespace, tabs, and newlines :
 
       Whitespaces refers to any nonprinting characters such as spaces, tabs and end-of-line symbols.
 
@@ -82,7 +82,6 @@ Storing the message in a variable and then printing the message, will give the o
                     Python
                     C
                     Java
-
     - Stripping whitespaces - rstrip() and lstrip() :
 
           >>> hometown = '            Maharashtra                           '
@@ -96,3 +95,13 @@ Storing the message in a variable and then printing the message, will give the o
             Maharashtra
             Maharashtra
    
+    ### # Removing Prefixes:
+
+    .removeprefix() is the method used to remove the mentioned value within the braces as a prefix. This can be explained using the following code snippet - 
+       
+        >>> neu_url = 'https://www.northeastern.edu/'
+        >>> x = neu_url.remove('https://')
+        >>> print(x)
+
+          www.northeastern.edu/
+ 
